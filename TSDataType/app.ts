@@ -42,6 +42,6 @@ let Person1: Person;
 Person1 = Person.Name;
 console.log(Person1);
 
-// null
+// null ≥Œ ≈∏¿‘
 let a: null = null;
 console.log(a);
