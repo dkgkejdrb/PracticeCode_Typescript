@@ -1,43 +1,35 @@
-// string
-let car = "HYUNDAI";
-console.log(car);
-car = "KIA";
-console.log(car);
-// int
-let age = 35;
-console.log(age);
-// boolean
-let isAdult = true;
-console.log(isAdult);
-// array
-let a1 = [1, 2, 3];
-let a2 = ['four', 'five', 'six'];
-console.log(a1, a2);
-// Ʃ�� (Tuple)
-let b = ['abc', 1];
-console.log(b[0]);
-console.log(b[1]);
-// �Լ� void
-function showError() {
-    console.log("Call function");
+// �������̽��� Ŭ���� ����
+class MyCar {
+    constructor() {
+        this.name = "sm5";
+        this.wheels = 4;
+    }
+    start() {
+        console.log("GO!");
+    }
 }
-showError();
-// enum ������
-var Person;
-(function (Person) {
-    Person["Name"] = "LeeDongKyoo";
-    Person[Person["Age"] = 35] = "Age";
-    Person["Job"] = "Programmer";
-})(Person || (Person = {}));
-console.log(Person.Name, Person.Age, Person.Job);
-console.log(Person["LeeDongKyoo"], Person[35], Person["Programmer"]);
-// enum ������ ����
-let Person1;
-Person1 = Person.Name;
-console.log(Person1);
-// null
-let a = null;
-console.log(a);
+// Ȯ��� �������̽��� Ŭ���� ����
+class NewMyCar {
+    constructor() {
+        this.name = "teslar";
+        this.wheels = 4;
+        this.battery = 40;
+    }
+    start() {
+        console.log("GO!");
+    }
+    stop() {
+        console.log("STOP!");
+    }
+}
+// const �� ��ü ����
+const obj = new MyCar();
+console.log(obj);
+obj.start();
+// const �� obj1 ��ü ����
+const obj1 = new NewMyCar();
+console.log(obj1);
+obj1.stop();
 function printSentence() {
     console.log("Using setTimeout()");
 }

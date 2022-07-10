@@ -7,6 +7,8 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "PracticeCode_Typescript", "
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TSDataType", "TSDataType\TSDataType.njsproj", "{48C94E01-C2D7-4537-8605-15C49F47BF75}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Interface", "Interface\Interface.njsproj", "{0B624165-D03D-4DB0-8648-6B314D945164}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{48C94E01-C2D7-4537-8605-15C49F47BF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48C94E01-C2D7-4537-8605-15C49F47BF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48C94E01-C2D7-4537-8605-15C49F47BF75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B624165-D03D-4DB0-8648-6B314D945164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B624165-D03D-4DB0-8648-6B314D945164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B624165-D03D-4DB0-8648-6B314D945164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B624165-D03D-4DB0-8648-6B314D945164}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

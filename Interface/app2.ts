@@ -45,9 +45,3 @@ obj.start();
 const obj1 = new NewMyCar();
 console.log(obj1);
 obj1.stop();
-
-
-function printSentence() {
-    console.log("Using setTimeout()")
-}
-setTimeout(printSentence, 2000)
