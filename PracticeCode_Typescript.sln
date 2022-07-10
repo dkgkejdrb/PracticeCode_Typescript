@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "PracticeCode_Typescript", "PracticeCode_Typescript\PracticeCode_Typescript.njsproj", "{2B7C5F99-E5A3-4E92-B71C-9D7D91929B24}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TSDataType", "TSDataType\TSDataType.njsproj", "{48C94E01-C2D7-4537-8605-15C49F47BF75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2B7C5F99-E5A3-4E92-B71C-9D7D91929B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B7C5F99-E5A3-4E92-B71C-9D7D91929B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B7C5F99-E5A3-4E92-B71C-9D7D91929B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C94E01-C2D7-4537-8605-15C49F47BF75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C94E01-C2D7-4537-8605-15C49F47BF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C94E01-C2D7-4537-8605-15C49F47BF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C94E01-C2D7-4537-8605-15C49F47BF75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

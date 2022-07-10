@@ -1,7 +1,4 @@
-function add(num1, num2) {
-    console.log(num1 + num2);
-}
-add(1, 2);
+console.log('Hello world');
 function printSentence() {
     console.log("Using setTimeout()");
 }

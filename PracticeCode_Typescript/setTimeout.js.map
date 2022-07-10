@@ -1,0 +1,1 @@
+{"version":3,"file":"setTimeout.js","sourceRoot":"","sources":["setTimeout.ts"],"names":[],"mappings":"AAAA,SAAS;AACT,IAAI,GAAG,GAAW,SAAS,CAAC;AAE5B,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;AAIjB,SAAS,aAAa;IAClB,OAAO,CAAC,GAAG,CAAC,oBAAoB,CAAC,CAAA;AACrC,CAAC;AAED,UAAU,CAAC,aAAa,EAAE,IAAI,CAAC,CAAA"}
