@@ -1,16 +1,21 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-// Ÿ���� ������
-const userName1 = "LDK";
-// Ÿ���� ������ �� ����
-let userName2 = "JEJ";
-const person = {
-    name: "LDK",
-    age: 35,
-    job: "developer"
-    // job: "student" // Ÿ�� ����
-};
-console.log(person.name, person.age, person.job);
+// protected
+class Car {
+    constructor(name) {
+        this.name = name;
+    }
+    start() {
+        console.log("start");
+        console.log(this.name);
+    }
+}
+// super�� ��� Ŭ������ ����� ���� �� ����
+class HYUNADAI extends Car {
+    showName() {
+        console.log(super.name);
+    }
+}
+const myCar = new HYUNADAI("sm6");
+myCar.showName();
 function printSentence() {
     console.log("Using setTimeout()");
 }
