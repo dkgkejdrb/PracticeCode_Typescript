@@ -1,5 +1,6 @@
 
 
+
 function printSentence() {
     console.log("Using setTimeout()")
 }
