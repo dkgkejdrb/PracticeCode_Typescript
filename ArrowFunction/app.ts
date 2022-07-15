@@ -7,11 +7,3 @@ let size = (a: number, b: number): void => {
 
 console.log(add(1, 2));
 size(10, 5);
-
-
-
-
-function printSentence() {
-    console.log("Using setTimeout()")
-}
-setTimeout(printSentence, 2000)

@@ -1,21 +1,22 @@
-// protected
-class Car {
-    constructor(name) {
-        this.name = name;
+let add = (a, b) => { return a + b; };
+let size = (a, b) => {
+    if (a > b) {
+        console.log(`${a} is bigger than ${b}`);
     }
-    start() {
-        console.log("start");
-        console.log(this.name);
+    if (b > a) {
+        console.log(`${b} is bigger than ${a}`);
     }
-}
-// super�� ��� Ŭ������ ����� ���� �� ����
-class HYUNADAI extends Car {
-    showName() {
-        console.log(super.name);
+};
+let hi = (n) => {
+    let res;
+    for (let i = 1; i <= n; i++) {
+        res += `hi`;
     }
-}
-const myCar = new HYUNADAI("sm6");
-myCar.showName();
+    return res;
+};
+console.log(add(1, 2));
+size(10, 5);
+console.log(hi(10));
 function printSentence() {
     console.log("Using setTimeout()");
 }
